@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.contenedor__navegador li {
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+
+
+}
+.contenedor__navegador li a {
+    text-decoration: none;
+    color:white;
+}
+.contenedor__navegador li a:hover {
+    color: blueviolet;
+}
+
+.contenedor__carro img {
+ height: 600px;
+}
+.contenedor__pie {
+    
+    background-color: black;
+    color: burlywood;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+             /*Nosotros*/
+
+.contenedor__nosotros {
+    background-color: burlywood;
+    height: 600px;
+    text-align: center;
+
+}  
+.nosotros__texto {
+    font-size: 30px;
+}
+.pie__home {
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    
+ 
+}
+          /*Contacto*/
+
+
+.contacto__formulario {
+    background-color: burlywood ;
+    padding-top: 10px;
+    height: 800px;
+}
+.contacto__tex {
+    text-align: center;
+}
+.contacto__tel {
+     display: flex;
+     text-align: center;
+     align-items: center;
+}
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto__datos form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedor__formu {
+    height: 600px;
+    display: grid;
+    grid-template-areas: ;
+    
+}
