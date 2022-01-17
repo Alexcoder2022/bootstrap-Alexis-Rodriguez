@@ -40,46 +40,72 @@
     text-align: center;
 
 }  
+.contenedor__nosotros h1 {
+    color: rgb(202, 104, 12);
+
+}
 .nosotros__texto {
     font-size: 30px;
 }
-.pie__home {
-    background-color: black;
-    color: white;
-    height: 100px;
-    text-align: center;
-    
- 
-}
+
           /*Contacto*/
 
 
 .contacto__formulario {
     background-color: burlywood ;
     padding-top: 10px;
-    height: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contacto__tex {
     text-align: center;
 }
 .contacto__tel {
-     display: flex;
-     text-align: center;
-     align-items: center;
-}
-.contacto__formulario {
+    background-color: black;
+    color: white;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+.contacto__tel p {
+    padding: 10px;
+}
+
+
+.contenedor__formu {
+    background-color: burlywood;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  
+   
+    
+}
+.contacto__datos {
+    border: solid 2px;
+    width: 320px;
+    padding: 10px;
+  
+
 }
 .contacto__datos form {
+    width: 300px;
     display: flex;
     flex-direction: column;
+
+    
+    
     
 }
-.contenedor__formu {
-    height: 600px;
-    display: grid;
-    grid-template-areas: ;
-    
+                     /*Servicios*/
+
+.card-body {
+    background-color: burlywood;
+}                     
+.card-title {
+    background-color: burlywood;
+    color: rgb(202, 104, 12);
+    text-align: center;
 }
