@@ -2,15 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-
 .contenedor__navegador li {
     display: inline;
     font-size: 30px;
     padding: 10px;
-
-
 }
 .contenedor__navegador li a {
     text-decoration: none;
@@ -71,33 +67,22 @@
 .contacto__tel p {
     padding: 10px;
 }
-
-
 .contenedor__formu {
     background-color: burlywood;
     height: 600px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 10px;
-  
-   
-    
 }
 .contacto__datos {
     border: solid 2px;
     width: 320px;
     padding: 10px;
-  
-
 }
 .contacto__datos form {
     width: 300px;
     display: flex;
     flex-direction: column;
-
-    
-    
-    
 }
                      /*Servicios*/
 
@@ -108,4 +93,32 @@
     background-color: burlywood;
     color: rgb(202, 104, 12);
     text-align: center;
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .contenedor__nosotros {
+        height: 100%;
+    }
+    .contenedor__logo {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .contenedor__formu {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .contenedor__formu iframe {
+        width: 100%;
+
+
+    }
+
+   
+    
+
+   
+    
 }
